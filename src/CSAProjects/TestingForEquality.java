@@ -8,9 +8,8 @@ public class TestingForEquality {
         int[] thirdList = {1, 3, 3, 6, 5, 6, 8, 9};
         int[] fourthList = {2, 3, 44, 5, 6, 7, 2, 4};
         System.out.println("Do the second and fourth list equal each other? " + equals(secondList, fourthList));
-        System.out.println("Do the first and third list equal each other? " + equals(firstList, thirdList));
     }
-    private static boolean equals(int[] Array1, int[] Array2) {
+    private  static boolean equals(int[] Array1, int[] Array2) {
         if (Array1.length != Array2.length) {
             return false;
         }
@@ -21,7 +20,5 @@ public class TestingForEquality {
         }
         return true;
     }
+
 }
-
-
-

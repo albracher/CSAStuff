@@ -1,5 +1,5 @@
 //Allen Phu P1, asked others for help, made a lot more sense once began to use char instead of String
-package CSAProjects;
+package Projects;
 import java.util.*;
 
 //Question Number Four
