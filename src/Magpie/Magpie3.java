@@ -32,11 +32,22 @@ public class Magpie3 {
             response = "Say something, please.";
         } else if (findKeyword(statement, "no") >= 0) {
             response = "Why so negative?";
-        } else if (findKeyword(statement, "mother") >= 0
-                || findKeyword(statement, "father") >= 0
-                || findKeyword(statement, "sister") >= 0
-                || findKeyword(statement, "brother") >= 0) {
+        } else if (findKeyword(statement, "mother") >= 0 || findKeyword(statement, "father") >= 0 || findKeyword(statement, "sister") >= 0 || findKeyword(statement, "brother") >= 0) {
             response = "Tell me more about your family.";
+        } else if ((findKeyword(statement, "dog") >= 0) || findKeyword(statement, "cat") >= 0) {
+            response = "Tell me more about your pets.";
+        } else if (findKeyword(statement, "Mr.") >= 0) {
+            response = "He sounds like a good teacher.";
+        } else if (findKeyword(statement, "Ms.") >= 0 || findKeyword(statement, "Mrs.") >= 0) {
+            response = "She sounds like a good teacher.";
+        } else if (statement.trim().isEmpty()) {
+            response = "Say something, please.";
+        } else if (findKeyword(statement, "sleep") >= 0 || findKeyword(statement, "slept") >= 0) {
+            response = "Go to sleep!";
+        } else if (findKeyword(statement, "game") >= 0 || findKeyword(statement, "games") >= 0) {
+            response = "What games do you play?";
+        } else if (findKeyword(statement, "school") >= 0 || findKeyword(statement, "School") >= 0) {
+            response = "How's school?";
         } else {
             response = getRandomResponse();
         }
@@ -56,8 +67,7 @@ public class Magpie3 {
      * @return the index of the first occurrence of goal in
      * statement or -1 if it's not found
      */
-    private int findKeyword(String statement, String goal,
-                            int startPos) {
+    private int findKeyword(String statement, String goal, int startPos) {
         String phrase = statement.trim().toLowerCase();
         goal = goal.toLowerCase();
 
@@ -82,11 +92,9 @@ public class Magpie3 {
 
             // If before and after aren't letters, we've
             // found the word
-            if (((before.compareTo("a") < 0) || (before
-                    .compareTo("z") > 0)) // before is not a
+            if (((before.compareTo("a") < 0) || (before.compareTo("z") > 0)) // before is not a
                     // letter
-                    && ((after.compareTo("a") < 0) || (after
-                    .compareTo("z") > 0))) {
+                    && ((after.compareTo("a") < 0) || (after.compareTo("z") > 0))) {
                 return psn;
             }
 
@@ -121,7 +129,7 @@ public class Magpie3 {
      * @return a non-committal string
      */
     private String getRandomResponse() {
-        final int NUMBER_OF_RESPONSES = 4;
+        final int NUMBER_OF_RESPONSES = 6;
         double r = Math.random();
         int whichResponse = (int) (r * NUMBER_OF_RESPONSES);
         String response = "";
@@ -134,6 +142,10 @@ public class Magpie3 {
             response = "Do you really think so?";
         } else if (whichResponse == 3) {
             response = "You don't say.";
+        } else if (whichResponse == 4) {
+            response = "Are you sure about that?";
+        } else if (whichResponse == 5) {
+            response = "I don't know about that.";
         }
 
         return response;

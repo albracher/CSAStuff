@@ -21,11 +21,10 @@ public class StringExplorer {
         System.out.println("After toLowerCase(), sample = " + sample);*/
 
         //  Try other methods here:
-        System.out.println(findKeyword("I can't catch wild cats.", "cat", 0));
+        System.out.println(findKeyword("I know nothing about snow plows.", "no", 0));
     }
 
-    private static int findKeyword(String statement, String goal,
-                                   int startPos) {
+    private static int findKeyword(String statement, String goal, int startPos) {
         String phrase = statement.trim().toLowerCase();
         goal = goal.toLowerCase();
 
@@ -41,15 +40,12 @@ public class StringExplorer {
             String before = " ", after = " ";
             if (psn > 0) {
                 before = phrase.substring(psn - 1, psn);
-                System.out.println("before:" + before);
             }
             if (psn + goal.length() < phrase.length()) {
                 after = phrase.substring(
                         psn + goal.length(),
                         psn + goal.length() + 1);
-                System.out.println("after:" + after);
             }
-
             // If before and after aren't letters, we've
             // found the word
             if (((before.compareTo("a") < 0) || (before
@@ -57,15 +53,12 @@ public class StringExplorer {
                     // letter
                     && ((after.compareTo("a") < 0) || (after
                     .compareTo("z") > 0))) {
-                System.out.println("before = " + before);
-                System.out.println("after = " + after);
                 return psn;
             }
 
             // The last position didn't work, so let's find
             // the next, if there is one.
             psn = phrase.indexOf(goal, psn + 1);
-
         }
 
         return -1;
