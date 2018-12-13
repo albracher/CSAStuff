@@ -27,7 +27,7 @@ public class Magpie3 {
      * @return a response based on the rules given
      */
     public String getResponse(String statement) {
-        String response = "";
+        String response;
         if (statement.length() == 0) {
             response = "Say something, please.";
         } else if (findKeyword(statement, "no") >= 0) {
