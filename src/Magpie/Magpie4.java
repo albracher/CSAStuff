@@ -85,7 +85,7 @@ public class Magpie4 {
      * @param statement the user statement, assumed to contain "you" followed by "me"
      * @return the transformed statement
      */
-    private String transformYouMeStatement(String statement) {
+   /* private String transformYouMeStatement(String statement) {
         //  Remove the final period, if there is one
         statement = statement.trim();
         String lastChar = statement.substring(statement
@@ -99,7 +99,7 @@ public class Magpie4 {
 
         String restOfStatement = statement.substring(psnOfYou + 3, psnOfMe).trim();
         return "What makes you think that I " + restOfStatement + " you?";
-    }
+    }*/
 
     private String transformIYouStatement(String fullStatement) {
         fullStatement = fullStatement.trim();
