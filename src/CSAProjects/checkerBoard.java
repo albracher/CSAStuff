@@ -1,4 +1,4 @@
-package Magpie;
+package CSAProjects;
 
 import java.util.Arrays;
 
