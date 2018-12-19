@@ -8,7 +8,6 @@ public class newThing {
     public static void hasMirrorTwice(int[] a1, int[] a2) {
         for (int i = 0; i <= a1.length - a2.length; i++) {
 
-            }
         }
     }
 }
