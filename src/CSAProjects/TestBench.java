@@ -1,10 +1,11 @@
 package CSAProjects;
 
+import java.util.Arrays;
+
 public class TestBench {
     public static void main(String[] args) {
-        int[] numArray = new int[5];
-        int[] numArrayTest = {1, 2, 3, 4, 5, 6, 7};
-
+     int[] array = {2, 3, 4, 5, 6};
+     array[3] = array[1];
+     System.out.println(Arrays.toString(array));
     }
-
 }
