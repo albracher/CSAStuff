@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f864dd9-bb13-4d80-bd45-c599ff5a0a95" name="Default Changelist" comment="" />
+    <list default="true" id="9f864dd9-bb13-4d80-bd45-c599ff5a0a95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SecSemesterCSA/PokemonClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecSemesterCSA/StudentMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/CSAProjects/ArrayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/CSAProjects/Chap3ProgrammingProject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/CSAProjects/FractionalCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/CSAProjects/Guess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/CSAProjects/IntegerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/CSAProjects/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/CSAProjects/NewArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/CSAProjects/Nov132018Stuff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/CSAProjects/PokemonChallenge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/CSAProjects/ShiftingAnArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/CSAProjects/TestingForEquality.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/CSAProjects/WorksheetProblem3h3i.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/CSAProjects/checkerBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/CSAProjects/newThing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Projects/CardGameProject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/fracCalc/FracCalc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSAStuff/fracCalc/FracCalc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSAProjects/TestBench.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSAProjects/newThing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstSemesterCSA/TestBench.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSemesterCSA/TestBench.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstSemesterCSA/newThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSemesterCSA/newThing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecSemesterCSA/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecSemesterCSA/Student.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,37 +76,64 @@
     <session id="1678353124">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="775" />
+          <entry key="java" value="1561" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="775" />
+          <entry key="JAVA" value="1561" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="10" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="552">
+              <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+              <folding>
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/StudentMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OldStuff/CardGameProject.java">
+        <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/PokemonClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -107,7 +159,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/PCFiles/TestingForEquality.java" />
-        <option value="$PROJECT_DIR$/src/CSAProjects/TestBench.java" />
         <option value="$PROJECT_DIR$/src/CSAProjects/TestingForEquality.java" />
         <option value="$PROJECT_DIR$/src/CSAProjects/TestingForEqualityBadExample.java" />
         <option value="$PROJECT_DIR$/src/CSAProjects/SriIsGay.java" />
@@ -118,15 +169,19 @@
         <option value="$PROJECT_DIR$/src/CSAProjects/WorksheetProblem3h3i.java" />
         <option value="$PROJECT_DIR$/src/Magpie/checkerBoard.java" />
         <option value="$PROJECT_DIR$/src/CSAProjects/checkerBoard.java" />
-        <option value="$PROJECT_DIR$/src/CSAProjects/newThing.java" />
         <option value="$PROJECT_DIR$/src/FracCalc/FracCalc.java" />
+        <option value="$PROJECT_DIR$/src/CSAProjects/newThing.java" />
+        <option value="$PROJECT_DIR$/src/CSAProjects/TestBench.java" />
+        <option value="$PROJECT_DIR$/src/SecSemesterCSA/StudentMain.java" />
+        <option value="$PROJECT_DIR$/src/SecSemesterCSA/Student.java" />
+        <option value="$PROJECT_DIR$/src/SecSemesterCSA/PokemonClass.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="793" />
+    <option name="width" value="814" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -136,7 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,27 +207,25 @@
               <item name="CSAStuff" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSAStuff" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CSAProjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSAStuff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSAStuff" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FracCalc" type="462c0819:PsiDirectoryNode" />
+              <item name="SecSemesterCSA" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545279908742" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547138834687" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="FirstSemesterCSA" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Allen\Desktop\CSAStuff\src\Magpie" />
     </key>
@@ -190,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FracCalc">
+  <component name="RunManager" selected="Application.StudentMain">
     <configuration name="FracCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fracCalc.FracCalc" />
       <module name="CSAStuff" />
@@ -204,12 +256,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Magpie2Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Magpie.Magpie2Runner" />
+    <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SecSemesterCSA.StudentMain" />
       <module name="CSAStuff" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CSAProjects.*" />
+          <option name="PATTERN" value="SecSemesterCSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,19 +309,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Magpie2Runner" />
       <item itemvalue="Application.WorksheetProblem3h3i" />
       <item itemvalue="Application.checkerBoard" />
       <item itemvalue="Application.newThing" />
       <item itemvalue="Application.FracCalc" />
+      <item itemvalue="Application.StudentMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentMain" />
         <item itemvalue="Application.FracCalc" />
         <item itemvalue="Application.newThing" />
         <item itemvalue="Application.checkerBoard" />
         <item itemvalue="Application.WorksheetProblem3h3i" />
-        <item itemvalue="Application.Magpie2Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +342,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3501094" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.53020567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -299,7 +351,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7004405" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2293956" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -307,7 +359,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3282967" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3282967" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32692307" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -367,13 +419,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CSAProjects/Nov132018Stuff.java" />
     <entry file="file://$PROJECT_DIR$/src/Magpie/Magpie2.java Java.URL" />
-    <entry file="file://$PROJECT_DIR$/src/CSAProjects/TestBench.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Magpie/Magpie2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -403,17 +448,65 @@
     <entry file="file://$PROJECT_DIR$/src/CSAProjects/WorksheetProblem3h3i.java" />
     <entry file="file://$PROJECT_DIR$/src/CSAProjects/checkerBoard.java" />
     <entry file="file://$USER_HOME$/Downloads/FracCalc.java" />
-    <entry file="file://$PROJECT_DIR$/src/CSAProjects/newThing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FracCalc/FracCalc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
           <caret line="220" column="70" selection-start-line="220" selection-start-column="70" selection-end-line="220" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OldStuff/CardGameProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstSemesterCSA/TestBench.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstSemesterCSA/TestBench.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstSemesterCSA/newThing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/PokemonClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/StudentMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
         </state>
       </provider>
     </entry>
