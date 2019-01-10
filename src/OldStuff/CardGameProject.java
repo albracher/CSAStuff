@@ -1,4 +1,4 @@
-package Projects;
+package OldStuff;
 import java.util.*;
 public class CardGameProject {
     public static int sum;
@@ -17,7 +17,7 @@ public class CardGameProject {
             System.out.println("Your sum is: " + sum);
             //Tests whether or not
             if (sum > 21) {
-                System.out.println("Game over!");
+                System.out.println("Guess over!");
             } if (sum == 21) {
                 System.out.println("You automatically win!");
             }
@@ -43,7 +43,7 @@ public class CardGameProject {
                     sum = sum + z;
                     System.out.println("Your sum is: " + sum);
                     if (sum > 21) {
-                        System.out.println("Game over!");
+                        System.out.println("Guess over!");
                     } if (sum == 21) {
                         System.out.println("You automatically win!");
 
@@ -63,7 +63,7 @@ public class CardGameProject {
                 System.out.println("Your sum is: " + sum);
             }
             if (sum > 21) {
-                System.out.println("Game over!");
+                System.out.println("Guess over!");
             } if (sum == 21) {
                 System.out.println("You automatically win!");
             }
@@ -72,7 +72,7 @@ public class CardGameProject {
             //this is where the first question ends
         } else if (decision.equals ("No") || decision.equals ("no")) {
             //reprogram to spit out the sum
-            System.out.println("");
+            System.out.println();
 
         }
     }

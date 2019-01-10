@@ -1,4 +1,4 @@
-package CSAProjects;
+package FirstSemesterCSA;
 import java.util.*;
 
 public class FractionalCalculator {

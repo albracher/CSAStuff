@@ -1,4 +1,4 @@
-package CSAProjects;
+package FirstSemesterCSA;
 
 public class TestingForEquality {
     public static void main(String[] args) {

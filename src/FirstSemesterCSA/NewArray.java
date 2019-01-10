@@ -1,6 +1,4 @@
-package CSAProjects;
-
-import java.util.Arrays;
+package FirstSemesterCSA;
 
 public class NewArray {
     public static void main(String[] args) {

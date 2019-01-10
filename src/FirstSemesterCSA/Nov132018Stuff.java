@@ -1,5 +1,5 @@
 //Allen Phu P1, did 3 exercises on 11/13/18, practice for doing last problem on test
-package CSAProjects;
+package FirstSemesterCSA;
 
 public class Nov132018Stuff {
     public static void main(String[] args) {

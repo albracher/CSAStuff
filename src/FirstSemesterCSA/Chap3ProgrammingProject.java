@@ -1,5 +1,5 @@
 //Allen Phu - 10/8/18, Equestria Project P1
-package CSAProjects;
+package FirstSemesterCSA;
 
 public class Chap3ProgrammingProject {
     public static void main(String[] args) {
