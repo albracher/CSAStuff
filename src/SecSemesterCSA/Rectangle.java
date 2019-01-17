@@ -22,8 +22,8 @@ public class Rectangle {
     }
 
     public void doubleSize() {
-    length *= 2;
-    height *= 2;
+        length *= 2;
+        height *= 2;
     }
 
 }
