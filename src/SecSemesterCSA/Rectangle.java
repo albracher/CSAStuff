@@ -1,10 +1,10 @@
 package SecSemesterCSA;
 
 public class Rectangle {
-    double length;
-    double height;
-    double perimeter;
-    double area;
+    private double length;
+    private double height;
+    private double perimeter;
+    private double area;
 
     public Rectangle(double x, double y) {
         length = x;
@@ -19,6 +19,11 @@ public class Rectangle {
 
     public double getArea() {
         return area;
+    }
+
+    public void doubleSize() {
+        length *= 2;
+        height *= 2;
     }
 
 }
