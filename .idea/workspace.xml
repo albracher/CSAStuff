@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f864dd9-bb13-4d80-bd45-c599ff5a0a95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecSemesterCSA/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecSemesterCSA/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecSemesterCSA/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecSemesterCSA/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecSemesterCSA/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecSemesterCSA/StudentMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,19 +61,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2144" />
+          <entry key="JAVA" value="2420" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -83,21 +87,49 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="24" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Desktop/PictureLab/src/PictureExplorer.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/StudentMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="796" column="2" selection-start-line="796" selection-start-column="2" selection-end-line="796" selection-end-column="2" />
+            <state relative-caret-position="138">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/Rectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/RectangleMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -136,21 +168,21 @@
         <option value="$PROJECT_DIR$/src/FracCalc/FracCalc.java" />
         <option value="$PROJECT_DIR$/src/CSAProjects/newThing.java" />
         <option value="$PROJECT_DIR$/src/CSAProjects/TestBench.java" />
-        <option value="$PROJECT_DIR$/src/SecSemesterCSA/StudentMain.java" />
         <option value="$PROJECT_DIR$/src/SecSemesterCSA/PokemonClass.java" />
         <option value="$PROJECT_DIR$/src/SecSemesterCSA/SampleCodeInternalImplementation.java" />
         <option value="$PROJECT_DIR$/src/SecSemesterCSA/NonSampleInternalImplementation.java" />
         <option value="$PROJECT_DIR$/src/SecSemesterCSA/ExampleMain.java" />
         <option value="$PROJECT_DIR$/src/SecSemesterCSA/Example.java" />
         <option value="$PROJECT_DIR$/src/SecSemesterCSA/NonExample.java" />
+        <option value="$USER_HOME$/Desktop/PictureLab/src/PictureExplorer.java" />
         <option value="$PROJECT_DIR$/src/SecSemesterCSA/Student.java" />
+        <option value="$PROJECT_DIR$/src/SecSemesterCSA/StudentMain.java" />
         <option value="$PROJECT_DIR$/src/SecSemesterCSA/RectangleMain.java" />
         <option value="$PROJECT_DIR$/src/SecSemesterCSA/Rectangle.java" />
-        <option value="$USER_HOME$/Desktop/PictureLab/src/PictureExplorer.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="793" />
     <option name="width" value="814" />
     <option name="height" value="867" />
@@ -166,12 +198,18 @@
           <expand>
             <path>
               <item name="CSAStuff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PictureLab" type="462c0819:PsiDirectoryNode" />
+              <item name="CSAStuff" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSAStuff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PictureLab" type="462c0819:PsiDirectoryNode" />
+              <item name="CSAStuff" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSAStuff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSAStuff" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecSemesterCSA" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,7 +221,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547742886584" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548777581133" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/PictureLab" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
@@ -292,10 +330,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="793" y="0" width="814" height="867" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.44429708" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4562334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -446,38 +484,10 @@
     <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/ExampleMain.java" />
     <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/NonExample.java" />
     <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/Example.java" />
-    <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/StudentMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2755">
           <caret line="522" column="10" selection-start-line="522" selection-start-column="10" selection-end-line="522" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/RectangleMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -505,9 +515,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="796" column="2" selection-start-line="796" selection-start-column="2" selection-end-line="796" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/StudentMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/RectangleMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecSemesterCSA/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>

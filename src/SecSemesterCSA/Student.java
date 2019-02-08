@@ -1,10 +1,10 @@
 package SecSemesterCSA;
 
 public class Student {
-    String firstName;
-    String lastName;
-    double GPA;
-    int totalUnits;
+    private String firstName;
+    private String lastName;
+    private double GPA;
+    private int totalUnits;
 
     public Student(String first, String last) {
         firstName = first;
@@ -15,6 +15,14 @@ public class Student {
 
     public String getName() {
         return (lastName + ", " + firstName);
+    }
+
+    public String getFirstName() {
+        return (firstName);
+    }
+
+    public String getLastName() {
+        return (lastName);
     }
 
     public double getGPA() {
