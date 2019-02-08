@@ -12,6 +12,14 @@ public class Middle extends Elementary {
         knowsHistory = sHistory;
     }
 
+    public boolean getMath() {
+        return intermediateMath;
+    }
+
+    public boolean getHistory() {
+        return knowsHistory;
+    }
+
     public void getMidStudent() {
         getStudent();
         getBasicStudent();
