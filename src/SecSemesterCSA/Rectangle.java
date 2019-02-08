@@ -6,8 +6,7 @@ public class Rectangle {
     private double perimeter;
     private double area;
 
-    public Rectangle(doub
-                             le x, double y) {
+    public Rectangle(double x, double y) {
         length = x;
         height = y;
         perimeter = (2 * length) + (2 * height);
