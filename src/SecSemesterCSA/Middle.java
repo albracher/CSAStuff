@@ -21,7 +21,6 @@ public class Middle extends Elementary {
     }
 
     public void getMidStudent() {
-        getStudent();
         getBasicStudent();
         System.out.println("Knows science: " + knowsScience + " Intermediate math: " + intermediateMath + " Knows history: " + knowsHistory);
     }
