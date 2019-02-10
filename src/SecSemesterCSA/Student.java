@@ -1,4 +1,4 @@
-        package SecSemesterCSA;
+package SecSemesterCSA;
 
 public class Student {
     private String firstName;
@@ -15,6 +15,14 @@ public class Student {
 
     public String getName() {
         return (lastName + ", " + firstName);
+    }
+
+    public String getFirstName() {
+        return (firstName);
+    }
+
+    public String getLastName() {
+        return (lastName);
     }
 
     public double getGPA() {
