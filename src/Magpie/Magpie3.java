@@ -46,7 +46,7 @@ public class Magpie3 {
             response = "Go to sleep!";
         } else if (findKeyword(statement, "game") >= 0 || findKeyword(statement, "games") >= 0) {
             response = "What games do you play?";
-        } else if (findKeyword(statement, "school") >= 0 || findKeyword(statement, "School") >= 0) {
+        } else if (findKeyword(statement, "school") >= 0 || findKeyword(statement, "Education") >= 0) {
             response = "How's school?";
         } else {
             response = getRandomResponse();

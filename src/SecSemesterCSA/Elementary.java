@@ -1,6 +1,6 @@
 package SecSemesterCSA;
 
-public class Elementary extends School {
+public class Elementary extends Education {
     private boolean knowsReading;
     private boolean knowsWriting;
     private String mathLevel;

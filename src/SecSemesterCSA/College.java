@@ -21,3 +21,5 @@ public class College extends High {
         System.out.println("Can party: " + canParty + " Can procrastinate: " + canProcrastinate + " Can cheat: " + canCheat);
     }
 }
+
+
