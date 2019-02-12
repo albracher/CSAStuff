@@ -41,6 +41,13 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1678353124">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -48,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="616">
-              <caret line="462" column="10" selection-start-line="462" selection-start-column="10" selection-end-line="462" selection-end-column="10" />
+              <caret line="420" column="10" selection-start-line="420" selection-start-column="10" selection-end-line="420" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -85,7 +92,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,17 +109,12 @@
               <item name="CSAStuff" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CSAStuff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSAStuff" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SecSemesterCSA" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,7 +349,7 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
-          <caret line="462" column="10" selection-start-line="462" selection-start-column="10" selection-end-line="462" selection-end-column="10" />
+          <caret line="420" column="10" selection-start-line="420" selection-start-column="10" selection-end-line="420" selection-end-column="10" />
         </state>
       </provider>
     </entry>
