@@ -22,7 +22,13 @@ public class DeckTester {
         Deck deck2 = new Deck(rank2, suit2, value2);
 
         System.out.println(deck1.size());
-        System.out.println(deck1.deal());
+        int deckSize = deck1.size();
+        for (int i = 0; i <=deckSize; i++) {
+            System.out.println("data:");
+            System.out.println(deck1.size());
+            System.out.println(deck1.deal());
+            System.out.println(deck1.isEmpty());
+        }
     }
 
 }
