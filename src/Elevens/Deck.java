@@ -35,10 +35,12 @@ public class Deck {
     public Deck(String[] ranks, String[] suits, int[] values) {
         this.cards = new ArrayList<Card>();
         for (int i = 0; i < ranks.length; i++) {
-            Card aCard = new Card(ranks[i], suits[i], values[i]);
-            this.cards.add(aCard);
+            for (int j = 0; j < suits.length; j++) {
+                Card aCard = new Card(ranks[i], suits[j], values[i]);
+                this.cards.add(aCard);
+            }
         }
-        this.size = this.cards.size();
+        size = cards.size();
     }
 
 
@@ -80,11 +82,11 @@ public class Deck {
      * previously dealt.
      */
     public Card deal() {
-        size--;
-        if (size >= 1) {
-            return cards.get(size);
+        if (size == 0) {
+            return null;
         }
-        return null;
+        size--;
+        return cards.get(size);
     }
 
     /**
