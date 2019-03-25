@@ -16,11 +16,6 @@ public class DeckTester {
         int[] value1 = {11, 12, 13};
         Deck deck1 = new Deck(rank1, suit1, value1);
 
-        String[] rank2 = {"jack", "queen", "king"};
-        String[] suit2 = {"clubs", "spades", "diamonds"};
-        int[] value2 = {10, 12, 13};
-        Deck deck2 = new Deck(rank2, suit2, value2);
-
         System.out.println(deck1.size());
         int deckSize = deck1.size();
         for (int i = 0; i <=deckSize; i++) {
