@@ -47,7 +47,7 @@ public class Magpie2 {
             response = "Go to sleep!";
         } else if (statement.contains("game") || statement.contains("games")) {
             response = "What games do you play?";
-        } else if (statement.contains("school") || statement.contains("School")) {
+        } else if (statement.contains("school") || statement.contains("Education")) {
             response = "How's school?";
         } else {
             response = getRandomResponse();

@@ -16,7 +16,6 @@ public class High extends Middle {
     }
 
     public void getMidStudent() {
-        getStudent();
         getBasicStudent();
         System.out.println("Knows bible teachings: " + bibleTeaching + " Intermediate math: " + getMath() + " Knows history: " + getHistory());
     }
