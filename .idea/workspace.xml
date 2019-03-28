@@ -2,8 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caaf7cbe-3159-45e1-a4ac-d4c0d1fcfc60" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elevens/Shuffler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elevens/Shuffler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Elevens/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Elevens/CardTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Elevens/Deck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Elevens/DeckTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Elevens/Shuffler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/FirstSemesterCSA/ArrayListStuff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/FirstSemesterCSA/ArrayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/FirstSemesterCSA/Chap3ProgrammingProject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/FirstSemesterCSA/FractionalCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/FirstSemesterCSA/Guess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/FirstSemesterCSA/IntegerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/FirstSemesterCSA/NewArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/FirstSemesterCSA/Nov132018Stuff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/FirstSemesterCSA/PokemonChallenge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/FirstSemesterCSA/ShiftingAnArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/FirstSemesterCSA/TestBench.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/FirstSemesterCSA/TestingForEquality.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/FirstSemesterCSA/WorksheetProblem3h3i.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/FirstSemesterCSA/checkerBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/FirstSemesterCSA/newThing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Magpie/Magpie2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Magpie/Magpie2Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Magpie/Magpie3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Magpie/Magpie4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Magpie/Magpie5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Magpie/MagpieRunner3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Magpie/MagpieRunner4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Magpie/MagpieRunner5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Magpie/StringExplorer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/OldStuff/CardGameProject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Pokemon/pokemonBattle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/PracticeStuff/Bird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/PracticeStuff/BirdClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/PracticeStuff/Owl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/PracticeStuff/SnowyOwl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Projects/Chap3ProgrammingProject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Projects/DayOfTheWeek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Projects/DayOfTheWeek2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Projects/ParameterArt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/Projects/QuestionNumberFour.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/SecSemesterCSA/APLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/SecSemesterCSA/APLineTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/SecSemesterCSA/College.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/SecSemesterCSA/Education.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/SecSemesterCSA/Elementary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/SecSemesterCSA/High.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/SecSemesterCSA/Middle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/SecSemesterCSA/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/SecSemesterCSA/MyClassMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/SecSemesterCSA/PokemonClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/SecSemesterCSA/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/SecSemesterCSA/RectangleMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/SecSemesterCSA/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/SecSemesterCSA/StudentMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/fracCalc/FracCalc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/hourglass/hourglassProject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/instate/CardGameBlackjack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSAStuff/textbookProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elevens/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elevens/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elevens/DeckTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elevens/DeckTester.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,22 +78,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Elevens/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1820#1821#0" expanded="true" />
-                <element signature="e#1847#1848#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1518">
+              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="849">
-              <caret line="590" column="10" selection-start-line="590" selection-start-column="10" selection-end-line="590" selection-end-column="10" />
+            <state relative-caret-position="46">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -69,10 +125,11 @@
         <option value="$PROJECT_DIR$/src/Elevens/DeckTester.java" />
         <option value="$PROJECT_DIR$/src/Elevens/Deck.java" />
         <option value="$PROJECT_DIR$/src/Elevens/Shuffler.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="974" />
@@ -84,7 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -119,6 +175,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,10 +281,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27763495" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2769923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -458,13 +515,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Elevens.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="590" column="10" selection-start-line="590" selection-start-column="10" selection-end-line="590" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.project">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -502,22 +552,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Elevens/Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1820#1821#0" expanded="true" />
-            <element signature="e#1847#1848#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Elevens/Shuffler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="115" column="55" lean-forward="true" selection-start-line="115" selection-start-column="55" selection-end-line="115" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="590" column="10" selection-start-line="590" selection-start-column="10" selection-end-line="590" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Elevens/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1518">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
