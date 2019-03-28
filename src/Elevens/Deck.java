@@ -1,7 +1,7 @@
 package Elevens;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * The Deck class represents a shuffled deck of cards.
@@ -21,7 +21,6 @@ public class Deck {
      * The next card to be dealt is at size - 1.
      */
     private int size;
-
 
     /**
      * Creates a new <code>Deck</code> instance.<BR>
@@ -72,7 +71,19 @@ public class Deck {
      * and reset the size to represent the entire deck.
      */
     public void shuffle() {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 4 *** */
+        for (int k = size - 1; k >= 0; k--) {
+            //continually shuffling over and over again until k hits 0
+            int r = (int)(Math.random() * k);
+            //from the Shuffler method,
+            //we are implementing values[] by using card.set
+            // r and k still remain the same
+            Card tmp = cards.get(r);
+            //we are now setting r's values to 's values
+            //now all of k's values will be part of temp
+            cards.set(r, cards.get(k));
+            cards.set(k, tmp);
+        }
+        size = cards.size();
     }
 
     /**
