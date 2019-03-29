@@ -90,8 +90,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="647" column="39" lean-forward="true" selection-start-line="647" selection-start-column="39" selection-end-line="647" selection-end-column="39" />
+            <state relative-caret-position="849">
+              <caret line="670" column="10" selection-start-line="670" selection-start-column="10" selection-end-line="670" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -100,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/src/Elevens/DeckTester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="366">
-              <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+              <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -187,23 +196,6 @@
               <item name="CSAStuff" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSAStuff" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSAStuff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSAStuff" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSAStuff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSAStuff" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Elevens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSAStuff" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSAStuff" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="PracticeStuff" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -571,7 +563,7 @@
     <entry file="file://$PROJECT_DIR$/src/Elevens/DeckTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
-          <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -595,8 +587,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="647" column="39" lean-forward="true" selection-start-line="647" selection-start-column="39" selection-end-line="647" selection-end-column="39" />
+        <state relative-caret-position="849">
+          <caret line="670" column="10" selection-start-line="670" selection-start-column="10" selection-end-line="670" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -613,7 +605,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
