@@ -127,7 +127,7 @@ public class ElevensBoard {
 	 */
 	public void replaceSelectedCards(List<Integer> selectedCards) {
 		for (Integer k : selectedCards) {
-			deal(k.intValue());
+			deal(k);
 		}
 	}
 
@@ -141,7 +141,7 @@ public class ElevensBoard {
 		List<Integer> selected = new ArrayList<Integer>();
 		for (int k = 0; k < cards.length; k++) {
 			if (cards[k] != null) {
-				selected.add(new Integer(k));
+				selected.add(k);
 			}
 		}
 		return selected;
