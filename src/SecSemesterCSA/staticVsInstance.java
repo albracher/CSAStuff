@@ -21,6 +21,14 @@ public class staticVsInstance {
 	public int getMice() {
 		return mice;
 	}
+
+	public int getDogs() {
+		return dogs;
+	}
+
+	public int getCats() {
+		return cats;
+	}
 	
 	public static void main(String[] args) {
 		System.out.println("cats: " + cats);

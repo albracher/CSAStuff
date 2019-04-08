@@ -35,7 +35,7 @@ public class sViTester {
 		System.out.println("mice in 'animals' object: " + animals.getMice());
 		
 // Note that cats has been changed because the object's constructor changed it.
-		System.out.println("cats is not an instance variable, but is changed by\nthe object's constructor when the object was created");
+		System.out.println("cats is not an instance variable, but is changed by the object's constructor when the object was created");
 		System.out.println("cats: " + staticVsInstance.cats);
 		System.out.println();
 		
