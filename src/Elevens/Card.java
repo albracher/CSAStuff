@@ -10,17 +10,17 @@ public class Card {
 	/**
 	 * String value that holds the suit of the card
 	 */
-	private String aSuit;
+	private String suit;
 
 	/**
 	 * String value that holds the rank of the card
 	 */
-	private String aRank;
+	private String rank;
 
 	/**
 	 * int value that holds the point value.
 	 */
-	private int aPointValue;
+	private int pointValue;
 
 
    /**
@@ -34,9 +34,10 @@ public class Card {
 	 *                  containing the point value of the card
 	 */
 	public Card(String cardRank, String cardSuit, int cardPointValue) {
-		aRank = cardRank;
-		aSuit = cardSuit;
-		aPointValue = cardPointValue;
+		//initializes a new Card with the given rank, suit, and point value
+		rank = cardRank;
+		suit = cardSuit;
+		pointValue = cardPointValue;
 	}
 
 
@@ -44,24 +45,24 @@ public class Card {
 	 * Accesses this <code>Card's</code> suit.
 	 * @return this <code>Card's</code> suit.
 	 */
-	public String getSuit() {
-		return aSuit;
-   }
+	public String suit() {
+		return suit;
+	}
 
 	/**
 	 * Accesses this <code>Card's</code> rank.
 	 * @return this <code>Card's</code> rank.
 	 */
-	public String getRank() {
-		return aRank;
+	public String rank() {
+		return rank;
 	}
 
    /**
 	 * Accesses this <code>Card's</code> point value.
 	 * @return this <code>Card's</code> point value.
 	 */
-	public int getPointValue() {
-		return aPointValue;
+	public int pointValue() {
+		return pointValue;
 	}
 
 	/** Compare this card with the argument.
@@ -71,13 +72,9 @@ public class Card {
 	 *         false otherwise.
 	 */
 	public boolean matches(Card otherCard) {
-		if (aRank.equals(otherCard.aRank) && (aSuit.equals(otherCard.aSuit)) && (aPointValue == otherCard.aPointValue)) {
-			return true;
-		} else {
-			return false;
-		}
-
-		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+		return otherCard.suit().equals(this.suit())
+			&& otherCard.rank().equals(this.rank())
+			&& otherCard.pointValue() == this.pointValue();
 	}
 
 	/**
@@ -92,7 +89,6 @@ public class Card {
 	 */
 	@Override
 	public String toString() {
-		return (aRank + " of " + aSuit + "(point value = " + aPointValue + ")");
-		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+		return rank + " of " + suit + " (point value = " + pointValue + ")";
 	}
 }
