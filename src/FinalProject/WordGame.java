@@ -24,8 +24,7 @@ public class WordGame {
             if (input.equals("k")) {
                 System.out.println("You are now in the musty kitchen.");
                 System.out.println("Type \"f\" to open the fridge.");
-                System.out.println("Type \"e\" to go to the East, towards the Great Lake.");
-
+                System.out.println("Type \"l\" to look at the table and check it out.");
                 location = "Kitchen";
             }
 
@@ -33,10 +32,27 @@ public class WordGame {
             //FROM HERE, THE "GREAT LAKE"
             System.out.println("You are now by the Great Lake.");
             System.out.println("Type \"e\" to go to the East, towards a bonfire.");
-            System.out.println("Type \"e\" to go to the East, towards the Great Lake.");
+            System.out.println("Type \"n\" to go to the North, towards the running car.");
             location = "Great Lakes";
 
+            if (input.equals("e")) {
+                System.out.println("You are now in the far East, and there is a bonfire.");
+                location = "Bonfire East";
+            } else if (input.equals("n")) {
+                System.out.println("You are now in front of the car.");
+                System.out.println("The car is still running and there is nobody in it.");
+                System.out.println("Type \"g\" to get in the car and drive away towards the road.");
+                System.out.println("Type \"a\" to analyze and check out the car before continuing.");
+                location = "running car";
+                    if (input.equals("g")) {
+                        System.out.println("The car's engine starts rumbling after three minutes, and breaks down on the side of the road.");
+                        System.out.println("You are left in the middle of nowhere, and cannot go any further.");
+                    } else if (input.equals("a")) {
+                        System.out.println("You check out the car and check out to see if there's anything wrong with the car.");
+                    }
+                    }
 
+            }
         }
     }
 }
