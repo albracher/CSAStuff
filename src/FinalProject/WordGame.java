@@ -26,15 +26,28 @@ public class WordGame {
                 System.out.println("Type \"f\" to open the fridge.");
                 System.out.println("Type \"l\" to look at the table and check it out.");
                 location = "Kitchen";
+            } else if (input.equals("b")) {
+                System.out.println("You are now in the somewhat dark basement. The door closed behind you as you came down.");
+                System.out.println("Type \"l\" to open the door on your left.");
+                System.out.println("Type \"r\" to open the door on your right.");
+                if (input.equals("l")) {
+                    System.out.println("You fell into a pit, hidden in the floor. Nice try.");
+                } else if (input.equals("r")) {
+                    System.out.println("There is a chest in front of you.");
+                    System.out.println("Type \"y\" to open the chest, and \"n\" not to.");
+                    if (input.equals("y")) {
+                        System.out.println("The chest blew up, destroying the house with you in it.");
+                    } else if (input.equals("n")) {
+                        System.out.println("Eventually, the roof begins to crumble. Nobody was ever meant to go this far into the home.");
+                    }
+                }
             }
-
         } else if (input.equals("e")) {
             //FROM HERE, THE "GREAT LAKE"
             System.out.println("You are now by the Great Lake.");
             System.out.println("Type \"e\" to go to the East, towards a bonfire.");
             System.out.println("Type \"n\" to go to the North, towards the running car.");
             location = "Great Lakes";
-
             if (input.equals("e")) {
                 System.out.println("You are now in the far East, and there is a bonfire.");
                 location = "Bonfire East";
