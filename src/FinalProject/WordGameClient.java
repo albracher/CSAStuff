@@ -7,6 +7,6 @@ public class WordGameClient {
         Scanner console = new Scanner(System.in);
         System.out.println("Would you like to play a game?");
         String input = console.nextLine();
-        (input);
+        gameOne(input);
     }
 }

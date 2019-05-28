@@ -9,7 +9,7 @@ public class WordGame {
         //"Type \"e\" to go to the East, towards the Great Lake."
 
         //step one: intro
-        System.out.println("You are in the woods. You may not be in the middle of nowhere, and see various locations around you.");
+        System.out.println("You are in the woods. You aren't in the middle of nowhere, and see various locations around you.");
         System.out.println("Type \"n\" to go to the North, towards the abandoned house.");
         System.out.println("Type \"e\" to go to the East, towards the Great Lake.");
         if (input.length() == 0) {
@@ -50,6 +50,15 @@ public class WordGame {
             location = "Great Lakes";
             if (input.equals("e")) {
                 System.out.println("You are now in the far East, and there is a bonfire.");
+                System.out.println("Type \"s\" to camp at the bonfire for a couple hours, staying next to the warmth of the fire.");
+                System.out.println("Type \"e\" to explore the area.");
+                if (input.equals("s")) {
+                    System.out.println("You wake up in the middle of the night with a tugging pain.");
+                    System.out.println("A bear comes out of the woods and eats you in the middle of the night.");
+                } else if (input.equals("e")) {
+                    System.out.println("You find a gun and some firewood lying around.");
+
+                }
                 location = "Bonfire East";
             } else if (input.equals("n")) {
                 System.out.println("You are now in front of the car.");
@@ -62,6 +71,9 @@ public class WordGame {
                         System.out.println("You are left in the middle of nowhere, and cannot go any further.");
                     } else if (input.equals("a")) {
                         System.out.println("You check out the car and check out to see if there's anything wrong with the car.");
+                        System.out.println("Opening up the hood, it's obvious that there is some engine damage.");
+                        System.out.println("There's a faint sound of another running engine in the distance");
+                        System.out.println("You drive the damaged car out");
                     }
                     }
 
