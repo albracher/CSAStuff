@@ -73,7 +73,7 @@ public class WordGame {
                         System.out.println("You check out the car and check out to see if there's anything wrong with the car.");
                         System.out.println("Opening up the hood, it's obvious that there is some engine damage.");
                         System.out.println("There's a faint sound of another running engine in the distance");
-                        System.out.println("You drive the damaged car out");
+                        System.out.println("You drive the damaged car out and ");
                     }
                     }
 
