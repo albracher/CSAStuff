@@ -1,9 +1,7 @@
 package FinalProject;
 
 public class WordGame {
-    public String gameOne(String input) {
-        String response;
-        //use this for debugging
+    public static void gameOne(String input) {
         String location;
         //Use this template for stuff
         //"Type \"e\" to go to the East, towards the Great Lake."
@@ -66,18 +64,17 @@ public class WordGame {
                 System.out.println("Type \"g\" to get in the car and drive away towards the road.");
                 System.out.println("Type \"a\" to analyze and check out the car before continuing.");
                 location = "running car";
-                    if (input.equals("g")) {
-                        System.out.println("The car's engine starts rumbling after three minutes, and breaks down on the side of the road.");
-                        System.out.println("You are left in the middle of nowhere, and cannot go any further.");
-                    } else if (input.equals("a")) {
-                        System.out.println("You check out the car and check out to see if there's anything wrong with the car.");
-                        System.out.println("Opening up the hood, it's obvious that there is some engine damage.");
-                        System.out.println("There's a faint sound of another running engine in the distance");
-                        System.out.println("You drive the damaged car out and ");
-                    }
-                    }
-
+                if (input.equals("g")) {
+                    System.out.println("The car's engine starts rumbling after three minutes, and breaks down on the side of the road.");
+                    System.out.println("You are left in the middle of nowhere, and cannot go any further.");
+                } else if (input.equals("a")) {
+                    System.out.println("You check out the car and check out to see if there's anything wrong with the car.");
+                    System.out.println("Opening up the hood, it's obvious that there is some engine damage.");
+                    System.out.println("There's a faint sound of another running engine in the distance");
+                    System.out.println("You drive the damaged car out and ");
+                }
             }
+
         }
     }
 }
