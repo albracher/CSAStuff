@@ -1,36 +1,25 @@
 package FinalProject;
-
-import java.util.Scanner;
-
+import java.util.*;
 public class WordGame {
 
-    public static void main(String[] args) {
-        Scanner console = new Scanner(System.in);
-        System.out.println("Enter input.");
-        String newInput;
-        newInput = console.nextLine();
-    }
-
-    public void gameOne(String input) {
+    public static void gameOne() {
+        Scanner inputThing = new Scanner(System.in);
+        String input = inputThing.nextLine();
         String location;
         //Use this template for stuff
         //"Type \"e\" to go to the East, towards the Great Lake."
 
         //step one: intro
-        System.out.println("You are in the woods. You aren't in the middle of nowhere, and see various locations around you.");
-        System.out.println("Type \"n\" to go to the North, towards the abandoned house.");
-        System.out.println("Type \"e\" to go to the East, towards the Great Lake.");
         if (input.equals("n")) {
-            //FROM HERE, THE "ABANDONED HOUSE" PATH STARTS
             System.out.println("You are now inside an old and abandoned home. It appears to be dusty and dark.");
             System.out.println("Type \"k\" to go towards the kitchen.");
             System.out.println("Type \"b\" to go towards the basement.");
-            location = "Abandoned House";
+            input = inputThing.nextLine();
             if (input.equals("k")) {
                 System.out.println("You are now in the musty kitchen.");
                 System.out.println("Type \"f\" to open the fridge.");
                 System.out.println("Type \"l\" to look at the table and check it out.");
-                location = "Kitchen";
+                input = inputThing.nextLine();
                 if (input.equals("l")) {
                     System.out.println("The flooring suddenly gives through, and the table ends up being a trap.");
                     System.out.println("You fall into a chasm, never to be seen again.");
@@ -38,6 +27,7 @@ public class WordGame {
                     System.out.println("The fridge opens and expands into a secret hallway.");
                     System.out.println("Type \"s\" to go straight.");
                     System.out.println("Type \"l\" to turn left.");
+                    input = inputThing.nextLine();
                     if (input.equals("s")) {
                         System.out.println("The pathway turns into a giant waterfall, and you fall through three hundred feet of water.");
                     } else if (input.equals("l")) {
@@ -49,11 +39,13 @@ public class WordGame {
                 System.out.println("You are now in the somewhat dark basement. The door closed behind you as you came down.");
                 System.out.println("Type \"l\" to open the door on your left.");
                 System.out.println("Type \"r\" to open the door on your right.");
+                input = inputThing.nextLine();
                 if (input.equals("l")) {
                     System.out.println("You fell into a pit, hidden in the floor. Nice try.");
                 } else if (input.equals("r")) {
                     System.out.println("There is a chest in front of you.");
                     System.out.println("Type \"y\" to open the chest, and \"n\" not to.");
+                    input = inputThing.nextLine();
                     if (input.equals("y")) {
                         System.out.println("The chest blew up, destroying the house with you in it.");
                     } else if (input.equals("n")) {
@@ -67,10 +59,12 @@ public class WordGame {
             System.out.println("Type \"s\" to go to the East, towards a bonfire.");
             System.out.println("Type \"n\" to go to the North, towards the running car.");
             location = "Great Lakes";
+            input = inputThing.nextLine();
             if (input.equals("s")) {
                 System.out.println("You are now in the far East, and there is a bonfire.");
                 System.out.println("Type \"s\" to camp at the bonfire for a couple hours, staying next to the warmth of the fire.");
                 System.out.println("Type \"e\" to explore the area.");
+                input = inputThing.nextLine();
                 if (input.equals("s")) {
                     System.out.println("You wake up in the middle of the night with a tugging pain.");
                     System.out.println("A bear comes out of the woods and eats you in the middle of the night.");
@@ -78,6 +72,7 @@ public class WordGame {
                     System.out.println("You find a gun and some firewood lying around.");
                     System.out.println("Type \"g\" to take the gun back to the fire. ");
                     System.out.println("Type \"f\" to take the firewood back to the fire.");
+                    input = inputThing.nextLine();
                     if (input.equals("g")) {
                         System.out.println("As soon as you get back to base, a bear attacks you as soon as you react.");
                     } else if (input.equals("f")) {
@@ -92,6 +87,7 @@ public class WordGame {
                 System.out.println("Type \"g\" to get in the car and drive away towards the road.");
                 System.out.println("Type \"a\" to analyze and check out the car before continuing.");
                 location = "running car";
+                input = inputThing.nextLine();
                 if (input.equals("g")) {
                     System.out.println("The car's engine starts rumbling after three minutes, and breaks down on the side of the road.");
                     System.out.println("You are left in the middle of nowhere, and cannot go any further.");
@@ -105,4 +101,5 @@ public class WordGame {
             }
         }
     }
+
 }
